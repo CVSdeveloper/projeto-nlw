@@ -92,10 +92,13 @@ section p{
     gap: 16px;
 
     margin-top: 24px;
-    transition: transform .3s;
 } 
 
-section ul:hover {
+selection ul li {
+transition: .3s;
+}
+
+section ul li:hover {
 
     transform: scale(1.1);
 }
