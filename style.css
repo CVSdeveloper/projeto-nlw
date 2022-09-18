@@ -24,7 +24,7 @@ header{
     
 }
 
-header img{
+header div img{
 width: 100%;
 border-radius: 50%;
 
@@ -89,13 +89,12 @@ section p{
  section ul {              
 
     display: flex;
-    flex-wrap: wrap;
     gap: 16px;
 
     margin-top: 24px;
 } 
 
-selection ul li {
+section ul li {
 transition: transform .3s;
 }
 
@@ -113,6 +112,8 @@ section ul li:hover {
     width: 70px;
     border: 1px solid #443E54;
    }
+
+
 }
 
 /*animation*/
